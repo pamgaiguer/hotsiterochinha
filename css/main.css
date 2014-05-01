@@ -8,6 +8,11 @@ body {
 	width: 1217px;
 	height: 946px;
 }
+#bg1 img{
+	margin-top: 25px;
+	margin-left: 250px;
+	display: inline;
+}
 #bg2 {
 	background-image: url('../images/bg2.jpg');
 	background-repeat: no-repeat;
