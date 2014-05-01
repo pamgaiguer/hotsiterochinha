@@ -1,4 +1,34 @@
-body{
+body {
 	background-color: #37883A;
 	background-image: url('../images/bg-rochinha.gif');
+}
+#bg1 {
+	background-image: url('../images/bg1.jpg');
+	background-repeat: no-repeat;
+	width: 1217px;
+	height: 946px;
+}
+#bg2 {
+	background-image: url('../images/bg2.jpg');
+	background-repeat: no-repeat;
+	width: 1217px;
+	height: 542px;
+}
+#bg3 {
+	background-image: url('../images/bg3.jpg');
+	background-repeat: no-repeat;
+	width: 1217px;
+	height: 644px;
+}
+#bg4 {
+	background-image: url('../images/bg4.jpg');
+	background-repeat: no-repeat;
+	width: 1217px;
+	height: 974px;
+}
+#bg5 {
+	background-image: url('../images/bg5.jpg');
+	background-repeat: no-repeat;
+	width: 1217px;
+	height: 838px;
 }
