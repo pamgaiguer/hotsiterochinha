@@ -16,10 +16,13 @@ body {
 .botoes-topo{
 	margin-top: 350px;
 	margin-left: 250px;
-	width: 850px;
+	width: 780px;
+	border:1px solid #000;
 }
 .botoes-topo img{
 	border:1px solid #f0f;
+	position: relative;
+	margin-bottom: 0;
 }
 #bg2 {
 	background-image: url('../images/bg2.jpg');

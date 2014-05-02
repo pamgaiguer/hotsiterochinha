@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'BerlinSans';
+	src: url('webfonts/BerlinSansFB-Reg.eot');
+	src: url('webfonts/BerlinSansFB-Reg.eot?#iefix') format('embedded-opentype'), 
+		 url('webfonts/BerlinSansFB-Reg.woff') format('woff'), 
+		 url('webfonts/BerlinSansFB-Reg.ttf') format('truetype'), 
+		 url('webfonts/BerlinSansFB-Reg.svg#neosansstd-regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ScriptMT';
+	src: url('webfonts/ScriptMTStd-Bold.eot');
+	src: url('webfonts/ScriptMTStd-Bold.eot?#iefix') format('embedded-opentype'), 
+		 url('webfonts/ScriptMTStd-Bold.woff') format('woff'), 
+		 url('webfonts/ScriptMTStd-Bold.ttf') format('truetype'), 
+		 url('webfonts/ScriptMTStd-Bold.svg#hvd_comic_serif_proregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
