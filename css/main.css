@@ -8,10 +8,18 @@ body {
 	width: 1217px;
 	height: 946px;
 }
-#bg1 img{
+#logo-topo{
 	margin-top: 25px;
 	margin-left: 250px;
 	display: inline;
+}
+.botoes-topo{
+	margin-top: 350px;
+	margin-left: 250px;
+	width: 850px;
+}
+.botoes-topo img{
+	border:1px solid #f0f;
 }
 #bg2 {
 	background-image: url('../images/bg2.jpg');
