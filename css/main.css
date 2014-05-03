@@ -1,6 +1,7 @@
 body {
 	background-color: #37883A;
 	background-image: url('../images/bg-rochinha.gif');
+	font-family: 'BerlinSans';
 }
 #bg1 {
 	background-image: url('../images/bg1.jpg');
@@ -14,21 +15,22 @@ body {
 	display: inline;
 }
 .botoes-topo{
-	margin-top: 350px;
-	margin-left: 250px;
-	width: 780px;
-	border:1px solid #000;
+	margin-top: 362px;
+	margin-left: 206px;
 }
 .botoes-topo img{
-	border:1px solid #f0f;
-	position: relative;
-	margin-bottom: 0;
 }
 #bg2 {
 	background-image: url('../images/bg2.jpg');
 	background-repeat: no-repeat;
 	width: 1217px;
 	height: 542px;
+}
+#bg2-text{
+	border:1px solid black; 
+	float: right; 
+	width: 700px;
+	font-size: 20px;
 }
 #bg3 {
 	background-image: url('../images/bg3.jpg');
@@ -48,3 +50,23 @@ body {
 	width: 1217px;
 	height: 838px;
 }
+.list-events li{
+	list-style: none;
+}
+.lista1{
+	float: left;
+}
+.lista2{
+	float: right;
+}
+.font-berlinsans{ font-family: 'BerlinSans'; }
+.font-script{ font-family: 'ScriptMT'; }
+.yellow{ color: #C8D100; }
+.yellow2{ color: #B8D065; }
+.yellow3{ color: #DCE070; }
+.yellow4{ color: #FFEC00; }
+.yellow5-picoles{ color: #DEDB00; }
+.white{ color: #FFFFFF; }
+.white2{ color: #C0D684; }
+.green{ color: #004C20; }
+.green2{ color: #00662B;}
