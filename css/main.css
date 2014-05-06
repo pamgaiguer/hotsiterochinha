@@ -14,16 +14,16 @@ body {
 	margin-left: 206px;
 }
 .go-top {
-	background: #666;
+	background: #FAFAFA;
 	bottom: 10px;
-	color: #FFF;
+	color: #37883A;
 	cursor: pointer;
 	display: none;
 	padding: 10px;
 	position: fixed;
 	right: 10px;
 	text-align: center;
-	text-shadow: 1px 1px 2px #000;
+	text-shadow: 1px 1px 2px #37883A;
 	width: 100px;
 	height: 70px;
 	z-index: 9999;
@@ -62,19 +62,3 @@ body {
 	height: 465px;
 }
 .list-events li{list-style: none;}
-#eventos-text{
-	border:1px solid black; 
-	width: 700px;
-	font-size: 20px;
-}
-.font-berlinsans{ font-family: 'BerlinSans'; }
-.font-script{ font-family: 'ScriptMT'; }
-.yellow{ color: #C8D100; }
-.yellow2{ color: #B8D065; }
-.yellow3{ color: #DCE070; }
-.yellow4{ color: #FFEC00; }
-.yellow5-picoles{ color: #DEDB00; }
-.white{ color: #FFFFFF; }
-.white2{ color: #C0D684; }
-.green{ color: #004C20; }
-.green2{ color: #00662B;}
