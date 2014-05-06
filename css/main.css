@@ -4,11 +4,14 @@ body {
 	font-family: 'BerlinSans';
 	font-size: 20px;
 }
-#bg1 {
-	background-image: url('../images/bg1.jpg');
-	background-repeat: no-repeat;
-	width: 1217px;
-	height: 946px;
+#logo-topo{
+	margin-top: 25px;
+	margin-left: 250px;
+	display: inline;
+}
+.botoes-topo{
+	margin-top: 362px;
+	margin-left: 206px;
 }
 .go-top {
 	background: #666;
@@ -25,55 +28,44 @@ body {
 	height: 70px;
 	z-index: 9999;
 }
-#logo-topo{
-	margin-top: 25px;
-	margin-left: 250px;
-	display: inline;
-}
-.botoes-topo{
-	margin-top: 362px;
-	margin-left: 206px;
-}
-.botoes-topo img{
-}
-#bg2 {
-	background-image: url('../images/bg2.jpg');
+#topo, #eventos, #pacotes, #personalizados, #sabores, #duvidas, #pedidos{
 	background-repeat: no-repeat;
 	width: 1217px;
-	height: 542px;
 }
-#bg2-text{
+#topo{
+	background-image: url('../images/bg1.jpg');
+	height: 840px;
+	margin-top: -3px;
+}
+#eventos {
+	background-image: url('../images/bg2.jpg');
+	height: 589px;
+}
+#pacotes {
+	background-image: url('../images/bg3.jpg');
+	height: 624px;
+}
+#personalizados {
+	background-image: url('../images/bg4.jpg');
+	height: 478px;
+}
+#sabores {
+	background-image: url('../images/bg5.jpg');
+	height: 493px;
+}
+#duvidas {
+	background-image: url('../images/bg6.jpg');
+	height: 487px;
+}
+#pedidos{
+	background-image: url('../images/bg7.jpg');
+	height: 465px;
+}
+.list-events li{list-style: none;}
+#eventos-text{
 	border:1px solid black; 
-	float: right; 
 	width: 700px;
 	font-size: 20px;
-}
-#bg3 {
-	background-image: url('../images/bg3.jpg');
-	background-repeat: no-repeat;
-	width: 1217px;
-	height: 644px;
-}
-#bg4 {
-	background-image: url('../images/bg4.jpg');
-	background-repeat: no-repeat;
-	width: 1217px;
-	height: 974px;
-}
-#bg5 {
-	background-image: url('../images/bg5.jpg');
-	background-repeat: no-repeat;
-	width: 1217px;
-	height: 838px;
-}
-.list-events li{
-	list-style: none;
-}
-.lista1{
-	float: left;
-}
-.lista2{
-	float: right;
 }
 .font-berlinsans{ font-family: 'BerlinSans'; }
 .font-script{ font-family: 'ScriptMT'; }

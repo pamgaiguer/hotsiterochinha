@@ -15,7 +15,7 @@ $(document).ready(function() {
 	});
 	
 	//link para eventos
-	$('a[href^="#bg2"]').on('click',function (e) {
+	$('a[href^="#eventos"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -28,7 +28,7 @@ $(document).ready(function() {
 	    });
 	});
 	//link para pacotes
-	$('a[href^="#bg3"]').on('click',function (e) {
+	$('a[href^="#pacotes"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -41,7 +41,7 @@ $(document).ready(function() {
 	    });
 	});
 	//link para personalizados
-	$('a[href^="#bg4"]').on('click',function (e) {
+	$('a[href^="#personalizados"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -54,7 +54,7 @@ $(document).ready(function() {
 	    });
 	});
 	//link para sabores
-	$('a[href^="#bg5"]').on('click',function (e) {
+	$('a[href^="#sabores"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -67,7 +67,7 @@ $(document).ready(function() {
 	    });
 	});
 	//link para pedidos
-	$('a[href^="#bg6"]').on('click',function (e) {
+	$('a[href^="#duvidas"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -80,7 +80,7 @@ $(document).ready(function() {
 	    });
 	});
 	//link para pedidos
-	$('a[href^="#bg7"]').on('click',function (e) {
+	$('a[href^="#pedidos"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash,
@@ -91,7 +91,5 @@ $(document).ready(function() {
 	    }, 900, 'swing', function () {
 	        window.location.hash = target;
 	    });
-	});					
-	
-	
+	});
 });
