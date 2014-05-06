@@ -86,39 +86,39 @@ Uva
 
 DÚVIDAS
 
-1. Quantos sabores posso escolher: 
-Os sabores variam de acordo com a quantidade de caixas que irá adquirir, a mesma é lacrada com 28 unidades de um único sabor. 
-Ex.:  pacote mínimo 06 caixas: 02 coco branco / 01 Limão/ 01 chocolate/01 banana/ 01 milho verde. 
+<p class="duvidas-perguntas">1. Quantos sabores posso escolher: </p>
+<p class="duvidas-respostas">Os sabores variam de acordo com a quantidade de caixas que irá adquirir, a mesma é lacrada com 28 unidades de um único sabor. 
+Ex.:  pacote mínimo 06 caixas: 02 coco branco / 01 Limão/ 01 chocolate/01 banana/ 01 milho verde. </p>
 
-2. Como é feita a entrega e retirada:
-Entregamos os picolés e carrinho no local do evento e retiramos após o término, nosso horário de trabalho de segunda a sábado das 08hs as 18h00hs. 
+<p class="duvidas-perguntas">2. Como é feita a entrega e retirada: </p>
+<p class="duvidas-respostas">Entregamos os picolés e carrinho no local do evento e retiramos após o término, nosso horário de trabalho de segunda a sábado das 08hs as 18h00hs. </p> 
 
-3. Qual a forma de pagamento?
-Sempre antecipado até 72h antes da festa através de boleto bancário. 
+<p class="duvidas-perguntas">3. Qual a forma de pagamento? </p>
+<p class="duvidas-respostas">Sempre antecipado até 72h antes da festa através de boleto bancário.  </p>
 
-4. Quantos dias de antecedência tenho que fechar o evento?
-Solicitamos que o mesmo seja fechado com no mínimo 05 dias úteis de antecedência, após este período fica a cargo de disponibilidade de agenda. 
+<p class="duvidas-perguntas">4. Quantos dias de antecedência tenho que fechar o evento? </p>
+<p class="duvidas-respostas">Solicitamos que o mesmo seja fechado com no mínimo 05 dias úteis de antecedência, após este período fica a cargo de disponibilidade de agenda.  </p>
 
-5. O carrinho é pago a parte? 
-Não o mesmo compõe o pacote de festas. 
+<p class="duvidas-perguntas">5. O carrinho é pago a parte?  </p>
+<p class="duvidas-respostas">Não, o mesmo compõe o pacote de festas.  </p>
 
-6. Posso comprar somente os picolés? 
-Sim, entregamos o mesmo no local da festa. 
+<p class="duvidas-perguntas">6. Posso comprar somente os picolés?  </p>
+<p class="duvidas-respostas">Sim, entregamos o mesmo no local da festa.  </p>
 
-7. Há cobrança de frete? 
-O frete já estará incluso no orçamento passado pelo distribuidor local. 
+<p class="duvidas-perguntas">7. Há cobrança de frete?  </p>
+<p class="duvidas-respostas">O frete já estará incluso no orçamento passado pelo distribuidor local.  </p>
 
-8. Vocês tem serviço de “sorveteiro”? 
-Não indicamos uma agência que disponibiliza promotores, consultar o atendimento para maiores informações.
+<p class="duvidas-perguntas">8. Vocês tem serviço de “sorveteiro”?  </p>
+<p class="duvidas-respostas">Não indicamos uma agência que disponibiliza promotores, consultar o atendimento para maiores informações. </p>
  
-9. Não quero carrinho vocês disponibilizam freezer? 
-Sim pedido mínimo de 15 caixas de picolé, solicite o orçamento. 
+<p class="duvidas-perguntas">9. Não quero carrinho. Vocês disponibilizam freezer?  </p>
+<p class="duvidas-respostas">Sim, pedido mínimo de 15 caixas de picolé, solicite o orçamento.  </p>
 
-10. Quantos picolés cabem em um carrinho? 
-De 07 á 13 caixas dependendo do modelo do equipamento, temos duas variações. 
+<p class="duvidas-perguntas">10. Quantos picolés cabem em um carrinho?  </p>
+<p class="duvidas-respostas">De 07 á 13 caixas dependendo do modelo do equipamento, temos duas variações.  </p>
 
-11. O que faço com os picolés caso sobre? 
-Não trabalhamos com produtos consignados, nossa equipe só retira o carrinho, os picolés ficam por conta do cliente. 
+<p class="duvidas-perguntas">11. O que faço com os picolés caso sobre?  </p>
+<p class="duvidas-respostas">Não trabalhamos com produtos consignados, nossa equipe só retira o carrinho, os picolés ficam por conta do cliente.  </p>
 
 
 PEDIDOS
