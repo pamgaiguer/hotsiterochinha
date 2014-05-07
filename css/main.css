@@ -16,15 +16,16 @@ body {
 }
 .go-top {
 	background: #FAFAFA;
-	bottom: 10px;
+	font-family: 'BerlinSans';
+	bottom: 0px;
+	right: 0px;
 	color: #37883A;
 	cursor: pointer;
 	display: none;
 	padding: 10px;
 	position: fixed;
-	right: 10px;
+	border-top-left-radius: 20px;	
 	text-align: center;
-	text-shadow: 1px 1px 2px #37883A;
 	width: 100px;
 	height: 70px;
 	z-index: 9999;
