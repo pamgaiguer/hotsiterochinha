@@ -15,13 +15,15 @@
 	text-indent: 80px;
 	margin: 0;
 	white-space:pre-line;
-	color: #C8D100;	
+	color: #C8D100;
+	font-size: 28px;	
 }
 .texto04{
 	text-indent: 290px;
 	margin: 0;
 	white-space:pre-line;
-	color: #C8D100;		
+	color: #C8D100;
+	font-size: 28px;
 }
 #eventos-text img, #pacotes img {
 	margin: 5px;
