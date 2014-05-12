@@ -64,3 +64,31 @@ ul.list-events.right{
 	font-size: 21px;
 	margin: -20px 180px 0px 180px;
 }
+/*------------------ Sabores ------------------*/
+.sab-01{
+	color: white;
+	font-size: 20px;
+	margin-top: 260px;
+	margin-left: 185px;
+	width: 300px;
+}
+/*--------------- Duvidas --------------------*/
+.duv-01{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.duv-01 span{
+	background-image: url('../images/luz-texto-menor.png');
+	background-repeat: no-repeat;
+}
+.duv-column-01{
+	width: 465px;
+	margin-left: 185px;
+	float: left;
+}
+.duv-column-02{
+	width: 500px;
+	margin-right: 20px;
+	float: right;
+}
+/*------------------ pedidos -----------------------*/
