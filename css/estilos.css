@@ -1,15 +1,17 @@
 .container-textos{	
-	margin-left: 450px;
+	margin-left: 420px;
 }
 .texto01{
 	margin: 0;
 	margin-top: 130px;
 	white-space:pre-line;
+	font-size: 28px;
 }
 .texto02{
 	text-indent: 50px;
 	margin: 0;
-	white-space:pre-line;	
+	white-space:pre-line;
+	font-size: 28px;	
 }
 .texto03{
 	text-indent: 80px;
@@ -28,6 +30,9 @@
 #eventos-text img, #pacotes img {
 	margin: 5px;
 }
+.list-events {
+	font-size: 27px;
+}
 .left{
 	float: left;
 }
@@ -35,12 +40,27 @@
 	float: right;
 }
 ul.list-events.right{
-	margin-right: 250px;
+	margin-right: 175px;
 }
 /*-------------- Pacotes --------------*/
 .pct-01{
 	color: #004c20;
 	margin-top: 100px;
 	margin-left: 70px;
+	font-size: 26px;
 }
-
+.list-pct{
+	font-size: 25px;
+	margin: 0 50px;
+}
+/*----------- personalizar -------------*/
+.persona-01 {
+	color: #DCE070;
+	font-size: 24px;
+	margin: 45px 180px; 
+}
+.persona-02{
+	color: white;
+	font-size: 21px;
+	margin: -20px 180px 0px 180px;
+}

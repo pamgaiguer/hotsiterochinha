@@ -64,4 +64,4 @@ body {
 	background-image: url('../images/bg7.jpg');
 	height: 465px;
 }
-.list-events li{list-style: none;}
+.list-events li, .list-pct li{list-style: none;}
