@@ -129,18 +129,26 @@
 						
 					</div>
 					<div id="pedidos">
+						<div class="ped-01">
 						<h3>Para mais informações e orçamento, preencha os dados abaixo.</h3>
-						<form>
-							<label>Nome</label>
-							<label>Telefone</label>
-							<label>E-mail</label>
-							<label>Tipo de evento</label>
-							<label>Local do evento</label>
-							<label>Data do evento</label>
-							<label>No. de convidados</label>
-							<label>Mensagem</label>
-							<textarea> </textarea>
-						</form>	
+							<form>
+								<label for="nome">Nome<input type="text" name="nome" /></label>
+								<label for="telephone">Telefone<input type="tel" name="telephone" /></label>
+								<br>
+								
+								<label for="email">E-mail <input type="email" name="email" /></label>
+								<label for="event-type">Tipo de evento <input type="text" name="event-type" /></label>
+								<br>
+								
+								<label for="event-local">Local do evento <input type="text" name="event-local" /></label>
+								<label for="event-date">Data do evento <input type="text" name="event-date" /></label>								
+								<label for="convidados">No. de convidados <input type="text" name="convidados" /></label>
+								<br>
+								
+								<label for="msg">Mensagem</label>
+								<textarea name="msg"> </textarea>
+							</form>
+						</div>	
 					</div>					
 				</div>
 			</div>
