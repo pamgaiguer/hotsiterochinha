@@ -1,4 +1,4 @@
-.container-textos{
+.container-textos{	
 	margin-left: 450px;
 }
 .texto01{
@@ -23,7 +23,7 @@
 	white-space:pre-line;
 	color: #C8D100;		
 }
-#eventos-text img {
+#eventos-text img, #pacotes img {
 	margin: 5px;
 }
 .left{
@@ -35,5 +35,10 @@
 ul.list-events.right{
 	margin-right: 250px;
 }
-
+/*-------------- Pacotes --------------*/
+.pct-01{
+	color: #004c20;
+	margin-top: 100px;
+	margin-left: 70px;
+}
 
