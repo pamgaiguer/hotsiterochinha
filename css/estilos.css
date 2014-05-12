@@ -1,25 +1,39 @@
+.container-textos{
+	margin-left: 450px;
+}
 .texto01{
 	margin: 0;
 	margin-top: 130px;
-	margin-left: 450px;	
 	white-space:pre-line;
 }
 .texto02{
 	text-indent: 50px;
 	margin: 0;
-	margin-left: 450px;	
 	white-space:pre-line;	
 }
 .texto03{
-	text-indent: 0px;
+	text-indent: 80px;
 	margin: 0;
-	margin-left: 450px;	
-	white-space:pre-line;		
+	white-space:pre-line;
+	color: #C8D100;	
 }
-.texto03{
-	text-indent: 100px;
+.texto04{
+	text-indent: 290px;
 	margin: 0;
-	margin-left: 450px;	
-	white-space:pre-line;		
+	white-space:pre-line;
+	color: #C8D100;		
 }
+#eventos-text img {
+	margin: 5px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+ul.list-events.right{
+	margin-right: 250px;
+}
+
 
