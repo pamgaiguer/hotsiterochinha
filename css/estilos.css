@@ -45,7 +45,7 @@ ul.list-events.right{
 /*-------------- Pacotes --------------*/
 .pct-01{
 	color: #004c20;
-	margin-top: 100px;
+	padding-top: 100px;
 	margin-left: 70px;
 	font-size: 26px;
 }
@@ -68,14 +68,14 @@ ul.list-events.right{
 .sab-01{
 	color: white;
 	font-size: 20px;
-	margin-top: 260px;
+	padding-top: 260px;
 	margin-left: 185px;
 	width: 300px;
 }
 /*--------------- Duvidas --------------------*/
 .duv-01{
 	font-size: 16px;
-	margin-top: 20px;
+	padding-top: 20px;
 }
 .duv-01 span{
 	background-image: url('../images/luz-texto-menor.png');
@@ -125,7 +125,7 @@ ul.list-events.right{
 	border-radius: 6px;
 	font-size: 15px;
 	outline: none;
-	margin-top: 10px;
+	margin: 10px 15px 0 0;
 	float: right;
 }
 .ped-01 form input[type="submit"]:active{
@@ -150,4 +150,16 @@ ul.list-events.right{
 }
 .ped-01 form label[for="convidados"]{
 	margin-left: 65px;
+}
+/*--------------------- footer ------------------------*/
+.footer{
+	margin-left: 200px;
+	color: #00662B;
+	padding-top: 50px;
+}
+.footer a:active, .footer a:visited, .footer a{
+	color: #00662B;
+} 
+.footer img{
+	margin-left: 220px;
 }
