@@ -42,6 +42,10 @@
 ul.list-events.right{
 	margin-right: 175px;
 }
+/*-------------- Eventos --------------*/
+.list-events{
+	color: #B8D065;
+}
 /*-------------- Pacotes --------------*/
 .pct-01{
 	color: #004c20;
@@ -106,7 +110,7 @@ ul.list-events.right{
 .ped-01 form input, .ped-01 form textarea{
 	display: block !important;
 	background-color: #9fc977;
-	border: 2px solid #DCE070;
+	border: 2px solid #FFEC00;
 }
 .ped-01 form input:focus, .ped-01 form textarea:focus{
 	outline: none;
