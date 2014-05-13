@@ -93,7 +93,6 @@ ul.list-events.right{
 }
 /*------------------ pedidos -----------------------*/
 .ped-01{
-	border:1px solid yellow;
 	margin: 0 175px;
 }
 .ped-01 h3{
@@ -106,7 +105,49 @@ ul.list-events.right{
 }
 .ped-01 form input, .ped-01 form textarea{
 	display: block !important;
+	background-color: #9fc977;
+	border: 2px solid #DCE070;
+}
+.ped-01 form input:focus, .ped-01 form textarea:focus{
+	outline: none;
 }
 .ped-01 form textarea{
-	width: 740px;
+	width: 855px;
+	height: 90px;
+	resize: none;
+}
+.ped-01 form input[type="submit"]{
+	background-image: url('../images/botao-enviar.png');
+	background-repeat: no-repeat;
+	width: 118px;
+	height: 18px;
+	border: 0;
+	border-radius: 6px;
+	font-size: 15px;
+	outline: none;
+	margin-top: 10px;
+	float: right;
+}
+.ped-01 form input[type="submit"]:active{
+	position: relative;
+	top: 3px;
+	outline: none;
+}
+.ped-01 form input[name="nome"], .ped-01 form input[name="telephone"], .ped-01 form input[name="email"], .ped-01 form input[name="event-type"]{
+	width: 390px;
+}
+.ped-01 form label[for="telephone"],.ped-01 form label[for="event-type"]{
+	margin-left: 70px;
+}
+.ped-01 form input[name="event-local"],.ped-01 form input[name="event-date"]{
+	width: 260px;
+}
+.ped-01 form input[name="convidados"]{
+	width: 195px;
+}
+.ped-01 form label[for="event-date"]{
+	margin-left: 65px;
+}
+.ped-01 form label[for="convidados"]{
+	margin-left: 65px;
 }

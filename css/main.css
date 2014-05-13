@@ -33,7 +33,7 @@ body {
 #topo, #eventos, #pacotes, #personalizados, #sabores, #duvidas, #pedidos{
 	background-repeat: no-repeat;
 	width: 1217px;
-	border:1px solid #f0f;
+	/*border:1px solid #f0f;*/
 }
 #topo{
 	background-image: url('../images/bg1.jpg');
