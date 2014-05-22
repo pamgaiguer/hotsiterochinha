@@ -59,10 +59,10 @@
 					<div class="container-textos">
 						<p class="pct-01">Nosso pacote máximo de serviço consiste em:</p>
 						<ul class="list-pct">
-							<li><i><?php echo $this->Html->image('/images/icon1-pacotes.png');?></i>Pedido de 06 caixas, com 28 picolés cada caixa, equivalentes a um total de 168 picolés.</li>
-							<li><i><?php echo $this->Html->image('/images/icon2-pacotes.png');?></i>Fornecimento de um carrinho, com guarda-sol e buzininha.</li>
-							<li><i><?php echo $this->Html->image('/images/icon3-pacotes.png');?></i>Fornecimento de gelo seco ou placas gelo-gel, suficiente para conservação dos picolés por seis horas.</li>
-							<li><i><?php echo $this->Html->image('/images/icon4-pacotes.png');?></i>Entrega e retirada dos equipamentos no local do evento, em horário comercial.</li>
+							<li>Pedido de 06 caixas, com 28 picolés cada caixa, equivalentes a um total de 168 picolés.</li>
+							<li>Fornecimento de um carrinho, com guarda-sol e buzininha.</li>
+							<li>Fornecimento de gelo seco ou placas gelo-gel, suficiente para conservação dos picolés por seis horas.</li>
+							<li>Entrega e retirada dos equipamentos no local do evento, em horário comercial.</li>
 						</ul>
 					</div>					
 					</div>						

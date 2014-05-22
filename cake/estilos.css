@@ -54,7 +54,25 @@ ul.list-events.right{
 }
 .list-pct{
 	font-size: 25px;
-	margin: 0 50px;
+	margin: 0 65px;
+	list-style-type:none;
+}
+.list-pct li {
+	height: 80px;
+	vertical-align: middle;
+	padding: 5px 0px 0px 35px;
+}
+.list-pct li:nth-child(1){
+	background: url('../images/icon1-pacotes.png') no-repeat left;
+}
+.list-pct li:nth-child(2){
+	background: url('../images/icon2-pacotes.png') no-repeat left;
+}
+.list-pct li:nth-child(3){
+	background: url('../images/icon3-pacotes.png') no-repeat left;
+}
+.list-pct li:nth-child(4){
+	background: url('../images/icon4-pacotes.png') no-repeat left;
 }
 /*----------- personalizar -------------*/
 .persona-01 {
@@ -95,7 +113,6 @@ ul.list-events.right{
 /*--------------- Duvidas --------------------*/
 .duv-01{
 	font-size: 16px;
-	padding-top: 20px;
 }
 .duv-01 span{
 	background-image: url('../images/luz-texto-menor.png');
@@ -139,8 +156,8 @@ ul.list-events.right{
 .ped-01 form input[type="submit"]{
 	background-image: url('../images/botao-enviar.png');
 	background-repeat: no-repeat;
-	width: 118px;
-	height: 18px;
+	width: 128px;
+	height: 22px;
 	border: 0;
 	border-radius: 6px;
 	font-size: 15px;
