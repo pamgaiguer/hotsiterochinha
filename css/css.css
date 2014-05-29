@@ -1,0 +1,482 @@
+/* File: css/css.css, Ratio: 15.1% */
+@CHARSET "ISO-8859-1";
+body {
+	margin: 0 auto;
+	width: 910px;
+	font-family: Arial;
+	font-size: 12px;
+	background: url(../img/rochinha/bg.jpg) no-repeat center -5px;
+}
+@font-face {
+	font-family: 'Futura';
+	src: url("../files/futura-condensed-normal-webfont.eot")
+}
+@font-face {
+	font-family: "Futura";
+	src: url("../files/futura-condensed-normal-webfont.ttf") format("TrueType");
+}
+.espelho {
+	margin-bottom: 30px !important;
+	font-family: "Futura";
+	font-size: 28px;
+}
+.espelho2 {
+	font-family: "Futura";
+	font-size: 28px;
+}
+.paginacao, .filter-table {
+	position: absolute;
+	bottom: 70px;
+	right: 55px;
+	line-height: normal;
+	text-align: right;
+	margin-right: 30px;
+	width: 350px;
+}
+.paginacao a, .paginacao .current {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px;
+	text-decoration: none;
+	color: #0A6E45;
+}
+.paginacao span.current {
+	color: #FFFFFF;
+	margin: 0 2px;
+}
+.paginacao span {
+	margin: 0 2px;
+}
+.paginacao a:hover {
+	color: #FBFBFB;
+}
+.scrollgeneric {
+	font-size: 1px;
+	left: 0;
+	line-height: 1px;
+	position: absolute;
+	top: 0;
+}
+.vscrollerbase {
+	width: 17px;
+}
+.vscrollerbar {
+	background: none repeat scroll 0 0 #e6f3ea;
+	height: 80px !important;
+	width: 9px;
+	margin-left: 4px;
+	margin-top: 8px;
+}
+.vscrollerbar {
+	padding: 5px;
+	z-index: 2;
+}
+.vscrollerbase {
+	background-color: transparent;
+	background-image: url("../img/rochinha/scrollbar_base.png");
+}
+.contentwrapper {
+	width: 97% !important;
+}
+#topo {
+	float: left;
+	width: 100%;
+	position: relative;
+}
+#topo .logo {
+	margin-top: 25px;
+	float: left;
+}
+#topo .menu {
+	float: left;
+	margin-top: 40px;
+	z-index: 999;
+	position: relative;
+}
+#topo .menu ul li {
+	line-height: 39px;
+	height: 39px;
+}
+#topo .menu ul li a {
+	margin: 0 16px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: "Futura";
+	padding: 2px 10px;
+}
+#topo .sorvetes {
+	width: 243px;
+	height: 112px;
+	position: absolute;
+	background: url(../img/rochinha/topo_sorvetes.png) no-repeat;
+	right: -20px;
+	top: 90px;
+	z-index: 99;
+}
+#footer {
+	float: left;
+	width: 88%;
+	margin: 15px 6%;
+	padding: 5px 0 0;
+	border-top: 2px solid #fff;
+}
+#footer ul li {
+	float: left;
+	border-right: 2px solid #0A6E45;
+	margin-right: 15px;
+	padding-right: 10px;
+}
+#footer ul li.last {
+	border-right: 0;
+}
+#footer ul li a {
+	color: #0A6E45;
+	text-decoration: none;
+	font-weight: bold;
+}
+#footer p {
+	text-align: right;
+}
+#content {
+	float: left;
+	width: 100%;
+}
+#content .banner {
+	background: url(../img/rochinha/bg_banners.png) no-repeat;
+	width: 748px;
+	height: 225px;
+	margin: 10px 17px;
+	padding: 49px 56px;
+}
+#content .boxbottom {
+	float: left;
+	margin-bottom: 40px;
+}
+#content .boxbottom.first {
+	margin-left: 30px;
+}
+#content .bigcontent {
+	float: left;
+	width: 746px;
+	height: 565px;
+	background: url(../img/rochinha/content_borda.png) no-repeat;
+	margin-left: 17px;
+	padding: 61px 57px;
+	position: relative;
+}
+#content .bigcontent .msg_sucess, #content .bigcontent .msg_error {
+	left: 362px;
+	position: absolute;
+	top: 124px;
+	width: 292px;
+}
+#content .quem_somos, #content .imprensa, #content .contato, #content .locais {
+	background: url(../img/rochinha/bg_quem_somos.jpg) no-repeat;
+	width: 746px;
+	height: 565px;
+	float: left;
+}
+#content .imprensa {
+	background: url(../img/rochinha/bg_imprensa.png) no-repeat;
+}
+#content .quem_somos h2, #content .imprensa h2, #content .locais h2, #content .contato h2 {
+	color: #0a6e45;
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin: 25px 20px 10px;
+}
+#content .contato h2 {
+	margin-left: 30px
+}
+#content .imprensa h2 {
+	color: #76ba6b;
+}
+#content .quem_somos p {
+	margin: 15px 20px;
+	width: 325px;
+	line-height: 140%;
+	font-size: 13px;
+	text-align: justify;
+}
+#content .imprensa ul {
+	margin-left: 25px;
+}
+#content .imprensa ul li {
+	float: left;
+	width: 175px;
+}
+#content .imprensa ul li .img {
+	background: url(../img/rochinha/imprensa_brilho.png) no-repeat;
+	width: 149px;
+	height: 98px;
+	padding: 14px 13px;
+}
+#content .imprensa ul li p {
+	color: #fff;
+	font-size: 13px;
+	margin-left: 14px;
+	height: 35px;
+}
+#content .imprensa ul li p a {
+	color: #fff;
+	text-decoration: none;
+}
+#content .imprensa .imagem-grande {
+	float: left;
+	width: 746px;
+	height: 565px;
+	display: none;
+}
+#content .imprensa .carousel {
+	display: none;
+}
+#content .imprensa .carousel .left, #content .imprensa .carousel .right {
+	width: 25px;
+	height: 71px;
+	position: absolute;
+	top: 290px;
+	cursor: pointer;
+}
+#content .imprensa .carousel .left {
+	background: url(../img/rochinha/carousel_left.png) no-repeat;
+	left: 27px;
+}
+#content .imprensa .carousel .right {
+	background: url(../img/rochinha/carousel_right.png) no-repeat;
+	right: 27px;
+}
+#content .contato {
+	background: url(../img/rochinha/bg_contato.jpg) no-repeat;
+}
+#content .contato .form {
+	float: left;
+	margin-left: 200px;
+	margin-top: 20px;
+}
+#content .contato .form .boxContato {
+	float: left;
+	margin-bottom: 5px;
+	width: 100%;
+}
+#content .contato .form label {
+	color: #8d8e90;
+	width: 105px;
+	font-size: 14px;
+	float: left;
+}
+#content .contato .form input[type=text], #content .contato .form textarea {
+	border: 1px solid #8d8e90;
+	padding: 3px;
+	float: left;
+	width: 326px;
+}
+#content .contato .form label.error {
+	width: 100%;
+	margin-left: 105px;
+	font-size: 11px;
+	color: #d93635;
+	margin-top: 2px;
+}
+#content .contato .form input[type=text].error, #content .contato .form textarea.error {
+	border: 1px solid #d93635;
+}
+#content .contato .form input[type=submit] {
+	color: #267c45;
+	border: 0;
+	background: none;
+	margin-left: 180px;
+	margin-top: 10px;
+}
+#content .locais {
+	background: url(../img/rochinha/bg_locais_sem_mapa.jpg) no-repeat;
+}
+#content .locais.sabores {
+	background: url(../img/rochinha/bg_sorvetes_massa.jpg) no-repeat;
+}
+#content .locais .lista-de-regioes {
+	float: left;
+	width: 290px;
+	height: 455px;
+	margin: 10px 20px 10px;
+	position: relative;
+}
+#content .locais .lista-de-regioes h3 a, #content .locais .lista-de-regioes h3 {
+	color: #197650;
+	font-size: 15px;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#content .locais.sabores h3 a {
+	color: #b2869f;
+	text-transform: none;
+}
+#content .locais.sabores h3 span {
+	color: #6bae75;
+}
+#content .locais.sabores ul li h2 {
+	color: #97bf0d;
+	margin: 15px 0 10px;
+}
+#content .locais .lista-de-regioes ul li {
+	width: 100%;
+	margin-bottom: 15px;
+}
+#content .locais.sabores .lista-de-regioes ul li {
+	margin-bottom: 5px;
+}
+#content .locais.sabores .lista-de-regioes ul li a.bold {
+	font-weight: bold;
+	font-size: 16px;
+}
+#content .locais .gmaps {
+	position: absolute;
+	top: 74px;
+	right: 81px;
+	width: 333px;
+	height: 320px;
+	background: url(../img/rochinha/sombra_mapa.png) no-repeat;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+#content .sabores .imagem-sorvete {
+	position: absolute;
+	width: 286px;
+	height: 247px;
+	right: 144px;
+	top: 216px;
+}
+#content .sabores .imblema {
+	width: 113px;
+	height: 87px;
+	position: absolute;
+	right: 100px;
+	top: 100px;
+}
+#content .sabores .imblema.zero_acucar {
+	background: url(../img/rochinha/0_acucar.png) no-repeat;
+}
+#content .sabores .imblema.zero_lactose {
+	background: url(../img/rochinha/0_lactose.png) no-repeat;
+}
+#content .sabores .imagem-sorvete.loading, #content .sabores.picoles .imagem-sorvete .img.loading, #content .imprensa .imagem-grande.loading {
+	background: url(../img/ajax-loader.gif) no-repeat center center;
+}
+#content .locais.sabores.picoles {
+	background: url(../img/rochinha/bg_sorvetes_picole.jpg) no-repeat;
+}
+#content .locais.sabores .lista-de-regioes {
+	width: 260px;
+}
+#content .sabores.picoles .imagem-sorvete, #content .sabores.picoles .imagem-sorvete .img {
+	background: url(../img/rochinha/bg_picole.png) no-repeat 0 2px;
+	width: 497px;
+	height: 297px;
+	right: 20px;
+	top: 80px;
+}
+#content .sabores.picoles .imagem-sorvete .img {
+	background: none;
+}
+#content .sabores.picoles .imblema {
+	height: 385px;
+	right: 250px;
+	top: 230px;
+	width: 267px;
+}
+#content .sabores.picoles .imblema.lkb {
+	background: url(../img/rochinha/imblema_lkb.png) no-repeat;
+}
+#content .sabores.picoles .imblema.bdk {
+	background: url(../img/rochinha/imblema_bdk.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema, #content .sabores.picoles #calorias {
+	width: 142px;
+	height: 85px;
+	position: absolute;
+}
+#content .sabores.picoles #calorias {
+	right: 340px;
+	top: 248px;
+}
+#content .sabores.picoles #calorias_com_imblema {
+	right: 90px;
+	top: 120px;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_42, #content .sabores.picoles #calorias.caloria_42 {
+	background: url(../img/rochinha/calorias/42.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_43, #content .sabores.picoles #calorias.caloria_43 {
+	background: url(../img/rochinha/calorias/43.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_44, #content .sabores.picoles #calorias.caloria_44 {
+	background: url(../img/rochinha/calorias/44.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_45, #content .sabores.picoles #calorias.caloria_45 {
+	background: url(../img/rochinha/calorias/45.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_48, #content .sabores.picoles #calorias.caloria_48 {
+	background: url(../img/rochinha/calorias/48.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_49, #content .sabores.picoles #calorias.caloria_49 {
+	background: url(../img/rochinha/calorias/49.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_51, #content .sabores.picoles #calorias.caloria_51 {
+	background: url(../img/rochinha/calorias/51.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_54, #content .sabores.picoles #calorias.caloria_54 {
+	background: url(../img/rochinha/calorias/54.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_56, #content .sabores.picoles #calorias.caloria_56 {
+	background: url(../img/rochinha/calorias/56.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_65, #content .sabores.picoles #calorias.caloria_65 {
+	background: url(../img/rochinha/calorias/65.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_70, #content .sabores.picoles #calorias.caloria_70 {
+	background: url(../img/rochinha/calorias/70.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_75, #content .sabores.picoles #calorias.caloria_75 {
+	background: url(../img/rochinha/calorias/75.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_80, #content .sabores.picoles #calorias.caloria_80 {
+	background: url(../img/rochinha/calorias/80.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_84, #content .sabores.picoles #calorias.caloria_84 {
+	background: url(../img/rochinha/calorias/84.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_87, #content .sabores.picoles #calorias.caloria_87 {
+	background: url(../img/rochinha/calorias/87.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_90, #content .sabores.picoles #calorias.caloria_90 {
+	background: url(../img/rochinha/calorias/90.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_93, #content .sabores.picoles #calorias.caloria_93 {
+	background: url(../img/rochinha/calorias/93.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_96, #content .sabores.picoles #calorias.caloria_96 {
+	background: url(../img/rochinha/calorias/96.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_103, #content .sabores.picoles #calorias.caloria_103 {
+	background: url(../img/rochinha/calorias/103.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_108, #content .sabores.picoles #calorias.caloria_108 {
+	background: url(../img/rochinha/calorias/108.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_116, #content .sabores.picoles #calorias.caloria_116 {
+	background: url(../img/rochinha/calorias/116.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_131, #content .sabores.picoles #calorias.caloria_131 {
+	background: url(../img/rochinha/calorias/131.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_180, #content .sabores.picoles #calorias.caloria_180 {
+	background: url(../img/rochinha/calorias/180.png) no-repeat;
+}
+#content .sabores.picoles #calorias_com_imblema.caloria_210, #content .sabores.picoles #calorias.caloria_210 {
+	background: url(../img/rochinha/calorias/210.png) no-repeat;
+}

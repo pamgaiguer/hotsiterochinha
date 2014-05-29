@@ -1,0 +1,101 @@
+body{
+	background: url('../img/rochinha/bg.jpg');
+}
+ul.menu ul {
+	display: none
+}
+ul.menu li:hover > ul {
+	display: block;
+}
+ul.menu ul {
+	position: absolute;
+	left: -1px;
+	top: 98%;
+}
+ul.menu ul ul {
+	position: absolute;
+	left: 98%;
+	top: -2px;
+}
+ul.menu, ul.menu ul {
+	margin: 0px;
+	list-style: none;
+	padding: 0px 2px 2px 0px;
+	background: transparent no-repeat;
+}
+ul.menu table {
+	border-collapse: separate;
+}
+ul.menu {
+	display: block;	zoom: 1; float: left;
+}
+ul.menu ul {
+	width: 131.25px;
+}
+ul.menu li {
+	display: block;
+	font-size: 0px;
+}
+ul.menu a:active, ul.menu a:focus {
+	outline-style: none;
+}
+ul.menu a, ul.menu li.dis a:hover, ul.menu li.sep a:hover {
+	display: block;
+	vertical-align: middle;
+	background-color: transparent;
+	border-width: 0px;
+	text-align: left;
+	text-decoration: none;
+	padding: 4px;
+	font: 16px Arial;
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+ul.menu span {overflow: hidden;}
+ul.menu li {float: left;}
+ul.menu ul li {float: none;}
+ul.menu ul a {text-align: left;	white-space: nowrap;}
+ul.menu li.sep {
+	text-align: center;
+	padding: 0px;
+	line-height: 0;
+}
+ul.menu li.sep span {
+	float: none;
+	padding-right: 0;
+	width: 5px;
+	height: 16px;
+	display: inline-block;
+	background-color: #005B29;
+	background-image: none;
+}
+ul.menu ul li.sep span {
+	width: 80%;
+	height: 3px;
+}
+ul.menu li:hover {position: relative;}
+ul.menu li:hover > a {
+	background-color: transparent;
+	font: 16px Arial;
+	color: #005B29;
+	text-decoration: none;
+}
+ul.menu li a:hover {
+	position: relative;
+	background-color: transparent;
+	font: 16px Arial;
+	color: #FFF;
+	text-decoration: none;
+	background-color: #008232;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background: -webkit-gradient(radial, center center, 0, center center, 460, from(#008232), to(transparent));
+	background: -webkit-radial-gradient(circle, #008232, transparent);
+	background: -moz-radial-gradient(circle, #008232, transparent);
+	background: -ms-radial-gradient(circle, #008232, transparent);
+	border-radius: 16px;
+}
+ul.menu li.dis a {
+	color: #AAAAAA !important;
+}
